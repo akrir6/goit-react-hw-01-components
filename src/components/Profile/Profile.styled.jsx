@@ -8,46 +8,73 @@ export const UserProfile = styled.div`
     box-shadow: 0 6px 8px 0 #D9E1F2;
 
     display: flex;
-    flex-direction:column;
-    align-items: center;
-    justify-content:space-between;
-    
+    align-content:space-between; 
+    flex-wrap: wrap;
 
-`;
+`
 
 export const Description = styled.div`
-    
+    width: 100%;
+    text-align: center;
 `
 
 export const UserAvarar = styled.img`
-    width: 100px;
-    height: 100px;
+    display: inline-block;
+    margin-top: 42px;
+    margin-bottom: 42px;
+    width: 150px;
+    height: 150px;
     border-radius: 50px;
     
 `;
 export const UserName = styled.p`
-    
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    font-size: larger;
+    color:#223961;
 `
 export const UserTag = styled.p`
-    
+     display: block;
+    margin-top: 8px;
+  
+    text-align: center;
+    font-size: medium;
+    color:#223961;
 `
 export const UserLocation = styled.p`
-    
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+    font-size: medium;
+    color:#223961;
 `
 
 export const StatsList = styled.ul`
-/* margin: auto; */
+    margin-top: 36px;
     display: flex;
-    
+    justify-content: space-between;
+    width:100%;
 `;
 
 export const StatsListItem = styled.li`
+    width: 100%;
+    border: 1px solid #4472C450;
+    padding: 12px;
     background-color: #D9E1F2;
-`;
+`
 
 export const Label = styled.span`
-    
+    display: block;
+    text-align: center;
+    font-size: smaller;
+    color:#223961;
 `
 export const Quantity = styled.span`
-    
+    display: block;
+    margin-top: 8px;
+    font-weight: 700;
+    text-align: center;
+    font-size: medium;
+    color:#223961;
 `
