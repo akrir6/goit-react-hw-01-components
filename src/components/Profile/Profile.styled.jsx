@@ -32,24 +32,18 @@ export const UserAvarar = styled.img`
     
 `;
 export const UserName = styled.p`
-    display: block;
     font-weight: 700;
-    text-align: center;
     font-size: larger;
     color:#223961;
 `
 export const UserTag = styled.p`
-     display: block;
-    margin-top: 8px;
+     margin-top: 8px;
   
-    text-align: center;
     font-size: medium;
     color:#223961;
 `
 export const UserLocation = styled.p`
-    display: block;
     margin-top: 8px;
-    text-align: center;
     font-size: medium;
     color:#223961;
 `
