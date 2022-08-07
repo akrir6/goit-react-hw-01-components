@@ -6,10 +6,11 @@ import user from '../user.json';
 import statistics from '../data.json';
 import friends from '../friends.json';
 import transactions from '../transactions.json';
+import styled from "@emotion/styled";
 
 export const App = () => {
   return (
-    <>
+    <Box>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -19,8 +20,18 @@ export const App = () => {
       />
       <Statistics title="Upload stats" statistics={statistics} />
       <FriendList friends={friends} />
-      <TransactionHistory transactions={transactions} />;
-
-    </>
+      <TransactionHistory transactions={transactions} />
+    </Box>
   )
 };
+
+const Box = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 3fr 1fr;
+    align-items: stretch;
+  
+    align-content: center;  
+    gap: 8px;
+    padding: 8px;
+`;
