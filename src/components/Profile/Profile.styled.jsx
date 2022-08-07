@@ -11,6 +11,10 @@ export const UserProfile = styled.div`
     align-content:space-between; 
     flex-wrap: wrap;
 
+    :hover{
+        border-color: #4472C475;
+        box-shadow: 0 6px 8px 0 #4472C475; 
+    }
 `
 
 export const Description = styled.div`
