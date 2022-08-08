@@ -5,6 +5,7 @@ export const TransactionTable=styled.table`
     grid-row: 1/3;
     border-collapse:collapse;
     font-size: small;
+    box-shadow: 0 6px 8px 0 #D9E1F2; 
 `
 
 export const TransactionItemCaption = styled.th`

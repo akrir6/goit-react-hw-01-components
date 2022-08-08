@@ -37,8 +37,7 @@ export const UserName = styled.p`
     color:#223961;
 `
 export const UserTag = styled.p`
-     margin-top: 8px;
-  
+    margin-top: 8px;
     font-size: medium;
     color:#223961;
 `
