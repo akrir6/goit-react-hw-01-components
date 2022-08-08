@@ -9,6 +9,11 @@ export const StatisticSection=styled.section`
     border-radius: 4px;
     box-shadow: 0 6px 8px 0 #D9E1F2; 
 
+    :hover{
+        border-color: #4472C475;
+        box-shadow: 0 6px 8px 0 #4472C475; 
+    }
+
 `
 export const Title = styled.h2`
     padding: 24px;
