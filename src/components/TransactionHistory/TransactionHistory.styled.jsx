@@ -6,6 +6,10 @@ export const TransactionTable=styled.table`
     border-collapse:collapse;
     font-size: small;
     box-shadow: 0 6px 8px 0 #D9E1F2; 
+
+    :hover{
+        box-shadow: 0 6px 8px 0 #4472C475; 
+    }
 `
 
 export const TransactionItemCaption = styled.th`
